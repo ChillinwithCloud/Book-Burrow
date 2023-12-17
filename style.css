@@ -1,0 +1,117 @@
+body{
+    background-color: #FAEDCD;
+}
+#navbar{
+    background-color: #CCD5AE;
+}
+#Logo{
+    display: flex;
+}
+#Title{
+    font-family: 'Mina', sans-serif;
+    font-size: larger;
+}
+#search{
+    border-color: #D4A373;
+    color: #D4A373;
+    background-color: #CCD5AE;
+    
+}
+
+#search:hover{
+    border-color: #D4A373;
+    background-color: #D4A373;
+    color: #FEFAE0;
+    
+}
+#searchbar{
+    width: 700px;
+}
+#profile{
+    margin: 10px;
+}
+#cart{
+    margin: 0px 10px;
+
+}
+li{
+    list-style-type: none;
+}
+#Headings-dropdownmenu{
+    font-size: 20px;
+    
+}
+
+#Price{
+    font-weight: bold;
+    font-size:40px;
+}
+#navbar{
+    position:fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#Nav2{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 82px;
+   
+}
+#Book-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    display: inline-block;
+    margin-top: 150px;
+}
+
+.btn{
+    background-color: #a5a58d;
+    border-color: #a5a58d;
+}
+.btn:hover{
+    background-color: #a5a58d;
+    border-color: #a5a58d;
+}
+
+@media only screen and (max-width:500px){
+    #Nav2{
+        position: fixed;
+        top: 160px;
+    }
+    
+}
+@media only screen and (min-width:904px) and (max-width:1104px){
+    #searchbar{
+        width: 500px;
+    }
+}
+@media only screen and (max-width:904px){
+    #searchbar{
+        width: 300px;
+    }
+}
+@media only screen and (max-width:704px){
+    #searchbar{
+        width: 200px;
+    }
+   
+}
+@media only screen and (max-width:604px){
+   
+   
+    #Nav2{
+        top:130px ;
+    }
+}
+@media only screen and (max-width:411px){
+    #Nav2{
+        top: 165px;
+    }
+}
